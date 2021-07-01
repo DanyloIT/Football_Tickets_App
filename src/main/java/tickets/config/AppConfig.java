@@ -45,7 +45,7 @@ public class AppConfig {
         properties.put("hibernate.hbm2ddl.auto", env.getProperty("hibernate.hbm2ddl.auto"));
 
         factoryBean.setHibernateProperties(properties);
-        factoryBean.setPackagesToScan("ticket_app.model");
+        factoryBean.setPackagesToScan("tickets.model");
         return factoryBean;
     }
 

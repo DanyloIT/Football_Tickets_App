@@ -56,9 +56,6 @@ public class DataInitializer {
         bob.setRoles(Set.of(roleService.getRoleByName(Role.RoleName.ROLE_USER)));
         userService.add(bob);
 
-        authenticationService.register("bob@gmail.com", "1234");
-        authenticationService.register("alice@gmail.com", "4321");
-
         Game ukraineVsSweden = new Game();
         ukraineVsSweden.setTitle("Ukraine vs Sweden");
         ukraineVsSweden.setDescription("Will Ukraine get to 1/4 final first in history?");
