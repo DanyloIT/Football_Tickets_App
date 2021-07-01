@@ -44,14 +44,20 @@ public class DataInitializer {
         roleService.add(new Role(Role.RoleName.ROLE_ADMIN));
         roleService.add(new Role(Role.RoleName.ROLE_USER));
 
-        User bob = new User();
-        authenticationService.register("bob@gmail.com", "1234");
-
         User alice = new User();
         alice.setEmail("alice@gmail.com");
         alice.setPassword("4321");
         alice.setRoles(Set.of(roleService.getRoleByName(Role.RoleName.ROLE_ADMIN)));
         userService.add(alice);
+
+        User bob = new User();
+        bob.setEmail("bob@gmail.com");
+        bob.setPassword("1234");
+        bob.setRoles(Set.of(roleService.getRoleByName(Role.RoleName.ROLE_USER)));
+        userService.add(bob);
+
+        authenticationService.register("bob@gmail.com", "1234");
+        authenticationService.register("alice@gmail.com", "4321");
 
         Game ukraineVsSweden = new Game();
         ukraineVsSweden.setTitle("Ukraine vs Sweden");
