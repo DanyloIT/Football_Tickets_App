@@ -4,13 +4,224 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a6b97e5-aa05-4487-9bde-5fbe2e529ae6" name="Default Changelist" comment="" />
+    <list default="true" id="8a6b97e5-aa05-4487-9bde-5fbe2e529ae6" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/controller/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/controller/GameSessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/controller/StadiumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/GameDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/GameSessionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/StadiumDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/impl/GameDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/impl/GameSessionDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/impl/StadiumDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dto/request/GameRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dto/request/GameSessionRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dto/request/StadiumRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dto/request/UserRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dto/response/GameResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dto/response/GameSessionResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dto/response/OrderResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dto/response/ShoppingCartResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dto/response/StadiumResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/dto/response/UserResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/model/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/model/GameSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/model/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/model/Stadium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/model/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/service/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/service/GameSessionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/service/StadiumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/service/impl/GameServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/service/impl/GameSessionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/service/impl/StadiumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/service/mapper/GameMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/service/mapper/GameSessionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/service/mapper/StadiumMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tickets/util/DataInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/config/SecurityInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/config/SecurityInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/config/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/config/WebAppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/controller/CinemaHallController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/controller/CustomGlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/controller/CustomGlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/controller/MovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/controller/MovieSessionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/controller/ShoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/controller/ShoppingCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/AbstractDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/CinemaHallDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/MovieDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/MovieSessionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/ShoppingCartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/ShoppingCartDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/TicketDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/TicketDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/impl/CinemaHallDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/impl/MovieDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/impl/MovieSessionDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/impl/OrderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/impl/OrderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/impl/RoleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/impl/RoleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/impl/ShoppingCartDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/impl/ShoppingCartDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/impl/TicketDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/impl/TicketDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dto/request/CinemaHallRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dto/request/MovieRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dto/request/MovieSessionRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dto/request/UserRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dto/response/CinemaHallResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dto/response/MovieResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dto/response/MovieSessionResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dto/response/OrderResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dto/response/ShoppingCartResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/dto/response/UserResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/exception/DataProcessingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/exception/DataProcessingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/lib/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/lib/EmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/lib/FieldsValueMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/lib/FieldsValueMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/lib/FieldsValueMatchValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/lib/FieldsValueMatchValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/lib/ValidEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/lib/ValidEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/model/CinemaHall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/model/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/model/MovieSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/model/ShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/CinemaHallService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/MovieService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/MovieSessionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/ShoppingCartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/impl/AuthenticationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/impl/AuthenticationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/impl/CinemaHallServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/impl/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/impl/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/impl/MovieServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/impl/MovieSessionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/impl/ShoppingCartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/mapper/CinemaHallMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/mapper/MovieMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/mapper/MovieSessionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/mapper/RequestDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/mapper/RequestDtoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/mapper/ResponseDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/mapper/ResponseDtoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/mapper/ShoppingCartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/mapper/ShoppingCartMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/service/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/service/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/util/DataInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ticket_app/util/DateTimePatternUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/util/DateTimePatternUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/config/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/config/SecurityInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/config/WebAppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/controller/AuthenticationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/controller/CinemaHallController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/controller/CustomGlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/controller/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/controller/MovieSessionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/controller/ShoppingCartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/AbstractDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/CinemaHallDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/MovieDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/MovieSessionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/OrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/RoleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/ShoppingCartDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/TicketDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/impl/CinemaHallDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/impl/MovieDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/impl/MovieSessionDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/impl/OrderDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/impl/RoleDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/impl/ShoppingCartDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/impl/TicketDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dto/request/CinemaHallRequestDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dto/request/MovieRequestDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dto/request/MovieSessionRequestDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dto/request/UserRequestDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dto/response/CinemaHallResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dto/response/MovieResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dto/response/MovieSessionResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dto/response/OrderResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dto/response/ShoppingCartResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/dto/response/UserResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/exception/DataProcessingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/lib/EmailValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/lib/FieldsValueMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/lib/FieldsValueMatchValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/lib/ValidEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/model/CinemaHall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/model/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/model/MovieSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/model/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/model/Role$RoleName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/model/ShoppingCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/model/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/CinemaHallService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/MovieService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/MovieSessionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/ShoppingCartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/impl/AuthenticationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/impl/CinemaHallServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/impl/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/impl/MovieServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/impl/MovieSessionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/impl/ShoppingCartServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/mapper/CinemaHallMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/mapper/MovieMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/mapper/MovieSessionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/mapper/OrderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/mapper/RequestDtoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/mapper/ResponseDtoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/mapper/ShoppingCartMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/service/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/util/DataInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ticket_app/util/DateTimePatternUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1uhqTM6HSJIDabjQu7cFIu28GmR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,12 +229,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\Football_Tickets_App\src\main\resources" />
+      <recent name="C:\IdeaProjects\Football_Tickets_App\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\Football_Tickets_App" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -46,11 +272,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625128174563</updated>
-      <workItem from="1625128175686" duration="379000" />
+      <workItem from="1625128175686" duration="6532000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1625128925719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625128925719</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

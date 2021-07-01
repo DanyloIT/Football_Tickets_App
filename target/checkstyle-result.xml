@@ -1,433 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\config\AppConfig.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.config&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;javax.sql.DataSource&apos; import. Should be before &apos;org.springframework.security.crypto.password.PasswordEncoder&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="13" severity="error" message="Wrong lexicographical order for &apos;java.util.Properties&apos; import. Should be before &apos;org.springframework.security.crypto.password.PasswordEncoder&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\config\SecurityConfig.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.config&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\config\SecurityInitializer.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.config&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\config\WebAppInitializer.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.config&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\config\WebConfig.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.config&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\controller\AuthenticationController.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.controller&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.PostMapping&apos; import. Should be before &apos;ticket_app.service.mapper.UserMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.RequestBody&apos; import. Should be before &apos;ticket_app.service.mapper.UserMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.RestController&apos; import. Should be before &apos;ticket_app.service.mapper.UserMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Extra separation in import group before &apos;javax.validation.Valid&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;javax.validation.Valid&apos; import. Should be before &apos;ticket_app.service.mapper.UserMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\controller\CinemaHallController.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.controller&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="8" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.*&apos; import. Should be before &apos;ticket_app.service.mapper.CinemaHallMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Extra separation in import group before &apos;javax.validation.Valid&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;javax.validation.Valid&apos; import. Should be before &apos;ticket_app.service.mapper.CinemaHallMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="11" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.service.mapper.CinemaHallMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;java.util.stream.Collectors&apos; import. Should be before &apos;ticket_app.service.mapper.CinemaHallMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\controller\CustomGlobalExceptionHandler.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.controller&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="12" severity="error" message="Extra separation in import group before &apos;java.util.Date&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;java.util.Date&apos; import. Should be before &apos;org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="13" severity="error" message="Wrong lexicographical order for &apos;java.util.LinkedHashMap&apos; import. Should be before &apos;org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="14" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="15" severity="error" message="Wrong lexicographical order for &apos;java.util.Map&apos; import. Should be before &apos;org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="16" severity="error" message="Wrong lexicographical order for &apos;java.util.stream.Collectors&apos; import. Should be before &apos;org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\controller\MovieController.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.controller&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="8" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.*&apos; import. Should be before &apos;ticket_app.service.mapper.MovieMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Extra separation in import group before &apos;javax.validation.Valid&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;javax.validation.Valid&apos; import. Should be before &apos;ticket_app.service.mapper.MovieMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="11" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.service.mapper.MovieMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;java.util.stream.Collectors&apos; import. Should be before &apos;ticket_app.service.mapper.MovieMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\controller\MovieSessionController.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.controller&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;org.springframework.format.annotation.DateTimeFormat&apos; import. Should be before &apos;ticket_app.util.DateTimePatternUtil&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.*&apos; import. Should be before &apos;ticket_app.util.DateTimePatternUtil&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Extra separation in import group before &apos;javax.validation.Valid&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;javax.validation.Valid&apos; import. Should be before &apos;ticket_app.util.DateTimePatternUtil&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="13" severity="error" message="Wrong lexicographical order for &apos;java.time.LocalDate&apos; import. Should be before &apos;ticket_app.util.DateTimePatternUtil&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="14" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.util.DateTimePatternUtil&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="15" severity="error" message="Wrong lexicographical order for &apos;java.util.stream.Collectors&apos; import. Should be before &apos;ticket_app.util.DateTimePatternUtil&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\controller\OrderController.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.controller&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;org.springframework.security.core.Authentication&apos; import. Should be before &apos;ticket_app.service.mapper.OrderMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="11" severity="error" message="Wrong lexicographical order for &apos;org.springframework.security.core.userdetails.UserDetails&apos; import. Should be before &apos;ticket_app.service.mapper.OrderMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.GetMapping&apos; import. Should be before &apos;ticket_app.service.mapper.OrderMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="13" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.PostMapping&apos; import. Should be before &apos;ticket_app.service.mapper.OrderMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="14" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.RequestMapping&apos; import. Should be before &apos;ticket_app.service.mapper.OrderMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="15" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.RestController&apos; import. Should be before &apos;ticket_app.service.mapper.OrderMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="17" severity="error" message="Extra separation in import group before &apos;java.util.List&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="17" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.service.mapper.OrderMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="18" severity="error" message="Wrong lexicographical order for &apos;java.util.stream.Collectors&apos; import. Should be before &apos;ticket_app.service.mapper.OrderMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\controller\ShoppingCartController.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.controller&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;org.springframework.security.core.Authentication&apos; import. Should be before &apos;ticket_app.service.mapper.ShoppingCartMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="11" severity="error" message="Wrong lexicographical order for &apos;org.springframework.security.core.userdetails.UserDetails&apos; import. Should be before &apos;ticket_app.service.mapper.ShoppingCartMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.*&apos; import. Should be before &apos;ticket_app.service.mapper.ShoppingCartMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\controller\UserController.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.controller&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.GetMapping&apos; import. Should be before &apos;ticket_app.service.mapper.UserMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.RequestMapping&apos; import. Should be before &apos;ticket_app.service.mapper.UserMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.RequestParam&apos; import. Should be before &apos;ticket_app.service.mapper.UserMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;org.springframework.web.bind.annotation.RestController&apos; import. Should be before &apos;ticket_app.service.mapper.UserMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\AbstractDao.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="4" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.Session&apos; import. Should be before &apos;ticket_app.exception.DataProcessingException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.SessionFactory&apos; import. Should be before &apos;ticket_app.exception.DataProcessingException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.Transaction&apos; import. Should be before &apos;ticket_app.exception.DataProcessingException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="8" severity="error" message="Extra separation in import group before &apos;java.util.List&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.exception.DataProcessingException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;java.util.Optional&apos; import. Should be before &apos;ticket_app.exception.DataProcessingException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\CinemaHallDao.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="error" message="Extra separation in import group before &apos;java.util.List&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.model.CinemaHall&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;java.util.Optional&apos; import. Should be before &apos;ticket_app.model.CinemaHall&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\impl\CinemaHallDaoImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.SessionFactory&apos; import. Should be before &apos;ticket_app.model.CinemaHall&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Repository&apos; import. Should be before &apos;ticket_app.model.CinemaHall&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\impl\MovieDaoImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.SessionFactory&apos; import. Should be before &apos;ticket_app.model.Movie&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Repository&apos; import. Should be before &apos;ticket_app.model.Movie&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\impl\MovieSessionDaoImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.Session&apos; import. Should be before &apos;ticket_app.model.MovieSession&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.SessionFactory&apos; import. Should be before &apos;ticket_app.model.MovieSession&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.query.Query&apos; import. Should be before &apos;ticket_app.model.MovieSession&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Repository&apos; import. Should be before &apos;ticket_app.model.MovieSession&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Extra separation in import group before &apos;java.sql.Date&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;java.sql.Date&apos; import. Should be before &apos;ticket_app.model.MovieSession&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="13" severity="error" message="Wrong lexicographical order for &apos;java.time.LocalDate&apos; import. Should be before &apos;ticket_app.model.MovieSession&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="14" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.model.MovieSession&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\impl\OrderDaoImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.Session&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.SessionFactory&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.query.Query&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="11" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Repository&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="13" severity="error" message="Extra separation in import group before &apos;java.util.List&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="13" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\impl\RoleDaoImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.Session&apos; import. Should be before &apos;ticket_app.model.Role&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.SessionFactory&apos; import. Should be before &apos;ticket_app.model.Role&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.Transaction&apos; import. Should be before &apos;ticket_app.model.Role&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.query.Query&apos; import. Should be before &apos;ticket_app.model.Role&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Repository&apos; import. Should be before &apos;ticket_app.model.Role&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Extra separation in import group before &apos;java.util.Optional&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;java.util.Optional&apos; import. Should be before &apos;ticket_app.model.Role&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\impl\ShoppingCartDaoImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.Session&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.SessionFactory&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.query.Query&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="11" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Repository&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\impl\TicketDaoImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.SessionFactory&apos; import. Should be before &apos;ticket_app.model.Ticket&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Repository&apos; import. Should be before &apos;ticket_app.model.Ticket&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\impl\UserDaoImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.Session&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.SessionFactory&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;org.hibernate.query.Query&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Repository&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Extra separation in import group before &apos;java.util.Optional&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;java.util.Optional&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\MovieDao.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="error" message="Extra separation in import group before &apos;java.util.List&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.model.Movie&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;java.util.Optional&apos; import. Should be before &apos;ticket_app.model.Movie&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\MovieSessionDao.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="error" message="Extra separation in import group before &apos;java.time.LocalDate&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;java.time.LocalDate&apos; import. Should be before &apos;ticket_app.model.MovieSession&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.model.MovieSession&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;java.util.Optional&apos; import. Should be before &apos;ticket_app.model.MovieSession&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\OrderDao.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="error" message="Extra separation in import group before &apos;java.util.List&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\RoleDao.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="error" message="Extra separation in import group before &apos;java.util.Optional&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;java.util.Optional&apos; import. Should be before &apos;ticket_app.model.Role&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\ShoppingCartDao.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\TicketDao.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dao\UserDao.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dao&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="error" message="Extra separation in import group before &apos;java.util.Optional&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;java.util.Optional&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dto\request\CinemaHallRequestDto.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dto.request&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dto\request\MovieRequestDto.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dto.request&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dto\request\MovieSessionRequestDto.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dto.request&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dto\request\UserRequestDto.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dto.request&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="error" message="Extra separation in import group before &apos;javax.validation.constraints.Size&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;javax.validation.constraints.Size&apos; import. Should be before &apos;ticket_app.lib.ValidEmail&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dto\response\CinemaHallResponseDto.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dto.response&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dto\response\MovieResponseDto.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dto.response&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dto\response\MovieSessionResponseDto.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dto.response&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dto\response\OrderResponseDto.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dto.response&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dto\response\ShoppingCartResponseDto.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dto.response&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\dto\response\UserResponseDto.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.dto.response&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\exception\DataProcessingException.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.exception&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\lib\EmailValidator.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.lib&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\lib\FieldsValueMatch.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.lib&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;java.lang.annotation.ElementType&apos; import. Should be before &apos;javax.validation.Payload&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;java.lang.annotation.Retention&apos; import. Should be before &apos;javax.validation.Payload&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;java.lang.annotation.RetentionPolicy&apos; import. Should be before &apos;javax.validation.Payload&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;java.lang.annotation.Target&apos; import. Should be before &apos;javax.validation.Payload&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\lib\FieldsValueMatchValidator.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.lib&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="error" message="Extra separation in import group before &apos;javax.validation.ConstraintValidator&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;javax.validation.ConstraintValidator&apos; import. Should be before &apos;org.springframework.beans.BeanWrapperImpl&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;javax.validation.ConstraintValidatorContext&apos; import. Should be before &apos;org.springframework.beans.BeanWrapperImpl&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\lib\ValidEmail.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.lib&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.lang.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;java.lang.annotation.*&apos; import. Should be before &apos;javax.validation.Payload&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\model\CinemaHall.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.model&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\model\Movie.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.model&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;java.util.Objects&apos; import. Should be before &apos;javax.persistence.Id&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\model\MovieSession.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.model&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="3" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="4" severity="error" message="Wrong lexicographical order for &apos;java.time.LocalDateTime&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\model\Order.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.model&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="3" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="4" severity="error" message="Wrong lexicographical order for &apos;java.time.LocalDateTime&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\model\Role.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.model&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="3" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="4" severity="error" message="Wrong lexicographical order for &apos;java.util.Objects&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\model\ShoppingCart.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.model&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="3" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="4" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\model\Ticket.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.model&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="3" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\model\User.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.model&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="3" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="4" severity="error" message="Wrong lexicographical order for &apos;java.util.Set&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\AuthenticationService.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\CinemaHallService.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="error" message="Extra separation in import group before &apos;java.util.List&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.model.CinemaHall&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\impl\AuthenticationServiceImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Service&apos; import. Should be before &apos;ticket_app.service.UserService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="11" severity="error" message="Extra separation in import group before &apos;java.util.Set&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="11" severity="error" message="Wrong lexicographical order for &apos;java.util.Set&apos; import. Should be before &apos;ticket_app.service.UserService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\impl\CinemaHallServiceImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Service&apos; import. Should be before &apos;ticket_app.service.CinemaHallService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Extra separation in import group before &apos;java.util.List&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.service.CinemaHallService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\impl\CustomUserDetailsService.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;org.springframework.security.core.userdetails.User.UserBuilder&apos; import. Should be before &apos;ticket_app.service.UserService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.springframework.security.core.userdetails.UserDetails&apos; import. Should be before &apos;ticket_app.service.UserService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;org.springframework.security.core.userdetails.UserDetailsService&apos; import. Should be before &apos;ticket_app.service.UserService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;org.springframework.security.core.userdetails.UsernameNotFoundException&apos; import. Should be before &apos;ticket_app.service.UserService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Service&apos; import. Should be before &apos;ticket_app.service.UserService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\impl\MovieServiceImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Service&apos; import. Should be before &apos;ticket_app.service.MovieService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Extra separation in import group before &apos;java.util.List&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.service.MovieService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\impl\MovieSessionServiceImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Service&apos; import. Should be before &apos;ticket_app.service.MovieSessionService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Extra separation in import group before &apos;java.time.LocalDate&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;java.time.LocalDate&apos; import. Should be before &apos;ticket_app.service.MovieSessionService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.service.MovieSessionService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\impl\OrderServiceImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Service&apos; import. Should be before &apos;ticket_app.service.ShoppingCartService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="11" severity="error" message="Extra separation in import group before &apos;java.time.LocalDateTime&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="11" severity="error" message="Wrong lexicographical order for &apos;java.time.LocalDateTime&apos; import. Should be before &apos;ticket_app.service.ShoppingCartService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.service.ShoppingCartService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\impl\RoleServiceImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Service&apos; import. Should be before &apos;ticket_app.service.RoleService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\impl\ShoppingCartServiceImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Service&apos; import. Should be before &apos;ticket_app.service.ShoppingCartService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\impl\UserServiceImpl.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.springframework.security.crypto.password.PasswordEncoder&apos; import. Should be before &apos;ticket_app.service.UserService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Service&apos; import. Should be before &apos;ticket_app.service.UserService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\mapper\CinemaHallMapper.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.mapper&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Component&apos; import. Should be before &apos;ticket_app.model.CinemaHall&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\mapper\MovieMapper.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.mapper&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Component&apos; import. Should be before &apos;ticket_app.model.Movie&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\mapper\MovieSessionMapper.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.mapper&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Component&apos; import. Should be before &apos;ticket_app.util.DateTimePatternUtil&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="11" severity="error" message="Extra separation in import group before &apos;java.time.LocalDateTime&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="11" severity="error" message="Wrong lexicographical order for &apos;java.time.LocalDateTime&apos; import. Should be before &apos;ticket_app.util.DateTimePatternUtil&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="12" severity="error" message="Wrong lexicographical order for &apos;java.time.format.DateTimeFormatter&apos; import. Should be before &apos;ticket_app.util.DateTimePatternUtil&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\mapper\OrderMapper.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.mapper&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Component&apos; import. Should be before &apos;ticket_app.util.DateTimePatternUtil&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Extra separation in import group before &apos;java.time.format.DateTimeFormatter&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;java.time.format.DateTimeFormatter&apos; import. Should be before &apos;ticket_app.util.DateTimePatternUtil&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="10" severity="error" message="Wrong lexicographical order for &apos;java.util.stream.Collectors&apos; import. Should be before &apos;ticket_app.util.DateTimePatternUtil&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\mapper\RequestDtoMapper.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.mapper&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\mapper\ResponseDtoMapper.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.mapper&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\mapper\ShoppingCartMapper.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.mapper&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Component&apos; import. Should be before &apos;ticket_app.model.Ticket&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="8" severity="error" message="Extra separation in import group before &apos;java.util.stream.Collectors&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;java.util.stream.Collectors&apos; import. Should be before &apos;ticket_app.model.Ticket&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\mapper\UserMapper.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service.mapper&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Component&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\MovieService.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="error" message="Extra separation in import group before &apos;java.util.List&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.model.Movie&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\MovieSessionService.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="error" message="Extra separation in import group before &apos;java.time.LocalDate&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;java.time.LocalDate&apos; import. Should be before &apos;ticket_app.model.MovieSession&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="6" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.model.MovieSession&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\OrderService.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="7" severity="error" message="Extra separation in import group before &apos;java.util.List&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;ticket_app.model.User&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\RoleService.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\ShoppingCartService.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\service\UserService.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.service&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\util\DataInitializer.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.util&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="3" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - ticket_app.model.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="4" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - ticket_app.service.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="5" severity="error" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Component&apos; import. Should be before &apos;ticket_app.service.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="7" severity="error" message="Extra separation in import group before &apos;javax.annotation.PostConstruct&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="7" severity="error" message="Wrong lexicographical order for &apos;javax.annotation.PostConstruct&apos; import. Should be before &apos;ticket_app.service.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="8" severity="error" message="Wrong lexicographical order for &apos;java.time.LocalDateTime&apos; import. Should be before &apos;ticket_app.service.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="9" severity="error" message="Wrong lexicographical order for &apos;java.util.Set&apos; import. Should be before &apos;ticket_app.service.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-</file>
-<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\ticket_app\util\DateTimePatternUtil.java">
-<error line="1" column="9" severity="error" message="Package name &apos;ticket_app.util&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\config\AppConfig.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\config\SecurityConfig.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\config\SecurityInitializer.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\config\WebAppInitializer.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\config\WebConfig.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\controller\AuthenticationController.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\controller\CustomGlobalExceptionHandler.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\controller\GameController.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\controller\GameSessionController.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\controller\OrderController.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\controller\ShoppingCartController.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\controller\StadiumController.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\controller\UserController.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\AbstractDao.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\GameDao.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\GameSessionDao.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\impl\GameDaoImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\impl\GameSessionDaoImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\impl\OrderDaoImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\impl\RoleDaoImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\impl\ShoppingCartDaoImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\impl\StadiumDaoImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\impl\TicketDaoImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\impl\UserDaoImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\OrderDao.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\RoleDao.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\ShoppingCartDao.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\StadiumDao.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\TicketDao.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dao\UserDao.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dto\request\GameRequestDto.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dto\request\GameSessionRequestDto.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dto\request\StadiumRequestDto.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dto\request\UserRequestDto.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dto\response\GameResponseDto.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dto\response\GameSessionResponseDto.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dto\response\OrderResponseDto.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dto\response\ShoppingCartResponseDto.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dto\response\StadiumResponseDto.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\dto\response\UserResponseDto.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\exception\DataProcessingException.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\lib\EmailValidator.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\lib\FieldsValueMatch.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\lib\FieldsValueMatchValidator.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\lib\ValidEmail.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\model\Game.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\model\GameSession.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\model\Order.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\model\Role.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\model\ShoppingCart.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\model\Stadium.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\model\Ticket.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\model\User.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\AuthenticationService.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\GameService.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\GameSessionService.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\impl\AuthenticationServiceImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\impl\CustomUserDetailsService.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\impl\GameServiceImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\impl\GameSessionServiceImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\impl\OrderServiceImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\impl\RoleServiceImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\impl\ShoppingCartServiceImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\impl\StadiumServiceImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\impl\UserServiceImpl.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\mapper\GameMapper.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\mapper\GameSessionMapper.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\mapper\OrderMapper.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\mapper\RequestDtoMapper.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\mapper\ResponseDtoMapper.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\mapper\ShoppingCartMapper.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\mapper\StadiumMapper.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\mapper\UserMapper.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\OrderService.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\RoleService.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\ShoppingCartService.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\StadiumService.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\service\UserService.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\util\DataInitializer.java">
+</file>
+<file name="C:\IdeaProjects\Football_Tickets_App\src\main\java\tickets\util\DateTimePatternUtil.java">
 </file>
 <file name="C:\IdeaProjects\Football_Tickets_App\src\main\resources\db.properties">
 </file>
