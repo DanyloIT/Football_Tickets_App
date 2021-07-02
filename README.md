@@ -10,7 +10,20 @@ The project is made in accordance with the so-called three-tier development divi
 
 Layering is to achieve "high cohesion, low coupling". The idea of "divide and conquer" is adopted to divide the problem into individual solutions, which is easy to control, easy to extend, and easy to allocate resources. 
 
-My tickets app has different role levels (admin, user) and these roles have different possibilities! The project also has authentication and authorization
+In order to incorporate authentication and authorization possibilities there are different role levels in the project (admin, user) and these roles have different permitions! 
+
+**Unauthorized user is allowed to:**
+- registrate
+- see all available sessions and information it
+- search movie session by date
+
+**Role "User" is allowed to:**
+- book and buy tickets
+- see history of all orders made by him
+
+**Admin is allowed to:**
+- add and edit information about movies, cinema halls, movie sessions
+- search information about the user by e-mail
 
 ## 🔧Install it by yourself and try
 - Download this project (clone and open in your IDE).
